@@ -1,0 +1,335 @@
+* {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    border-bottom: 2px solid red;
+}
+
+.header h2 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.header h5 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.info-right {
+    display: flex;
+    justify-content: center;
+}
+
+.info-right a {
+    color: blue;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size:  15px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/*box*/
+.box {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    clear: both;
+    overflow: auto;
+    display: block;
+}
+
+img {
+    float: left;
+    width: 80px;
+    height: 120px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box h2 {
+    margin: 7px 0px 0px 0px;
+    font-size: 16px;
+    display: block;
+}
+
+.box p {
+    display: block;
+    margin-top: 2px;
+    font-size: 12px;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.box a {
+    display: block;
+    float: right;
+    font-size: 12px;
+    color: blue;
+    text-decoration-line: none;
+    padding-right: 10px;
+}
+
+.bag {
+    display: block;
+    background-color: dimgray;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.bag h5 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.bag-login {
+    display: block;
+    background-color: dimgray;
+    position: absolute;
+    bottom: 0%;
+    height: 100px;
+    width: 100%;
+}
+
+.bag-login h5 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 10px;
+    text-align: center;
+}
+
+/*Form*/
+
+.container-login{
+    border: 2px solid cornflowerblue;
+    display: block;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    margin-left: 655px;
+}
+
+.container-login .title {
+    background-color: cornflowerblue;
+    display: flex;
+    height: 40px;
+
+}
+.container-login .title h1{
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+
+.container-login form{
+    display: block;
+    justify-content: center;
+    padding: 20px 10px 0px 10px;
+}
+.container-login form div{
+    padding: 10px 0px 0px 0px;
+}
+.container-login form div input{
+    margin-left: 30px;
+    float: right;
+    margin-right: 30px;
+}
+.container-login form div label{
+    font-size: 12px;
+    margin-left: 35px;
+}
+.container-login form .btn{
+    margin-left: 157px;
+    margin-top: 5px;
+    background-color: blue;
+    color: yellow;
+}
+
+/*book*/
+
+.info-book{
+    display: block;
+    margin: 0px 10px 0px 10px;
+    border: 2px solid gray;
+    height: 550px;
+}
+
+.info-book .right-info{
+    float: right;
+    display: block;
+    padding-right: 10px;
+}
+.info-book .right-info a{
+    display: block;
+    margin-top: 5px;
+    margin-left: 85px;
+    color: green;
+    font-size: 14px;
+    padding-left: 115px;
+
+}
+.info-book .right-info p{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 10px;
+    font-style: italic;
+    padding-left: 154px;
+}
+
+.info-book .left-info{
+    margin-top: 30px;
+    border-bottom: 2px solid blue;
+    height: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.book-info {
+    display: block;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.book-info a {
+    width: 100px;
+    height: 30px;
+    display: block;
+    color: green;
+    font-size: 14px;
+    float: right;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+   
+}
+.book-info p {
+    display: block;
+    padding-top: 10px;
+}
+
+.avtor-info p {
+    height: 70px; 
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+}
+
+.avtor-info .avtor-name {
+    height: 15px;
+}
+.avtor-info {
+   border-top: 2px solid blue;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.avtor {
+    padding-top: 10px;
+    width: 100px;
+    display: block;
+    color: green;
+    font-size: 14px;
+    float: right;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.zmist {
+    border-top: 2px solid blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    height: 100px;
+}
+
+.zmist a {
+    padding-top: 10px;
+    margin-left: 15px;
+    display: block;
+    color: green;
+}
+
+.spusok a {
+    margin-left: 30px;
+    display: block;
+}
+
+.info-book .left-info h6{
+    margin: 10px 0px 5px 0px;
+}
+
+/*registartion*/
+
+.container-registration {
+    display: block;
+    border: 2px solid cornflowerblue;
+    width: 300px;
+    height: 420px;
+    margin-left: 655px;
+}
+
+.container-registration .title {
+    background-color: cornflowerblue;
+    display: flex;
+    text-align: center;
+    height: 40px;
+}
+.container-registration .title h1 {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+.container-registration form {
+    display: block;
+    justify-content: center;
+    padding: 20px 10px 0px 10px;
+}
+.container-registration form div {
+    padding: 10px 0px 0px 0px;
+}
+.container-registration form div input {
+    width: 100%;
+    height: 20px;
+}
+.container-registration form div label {
+    display: block;
+    font-size: 16px;
+    color: cornflowerblue;
+}
+.container-registration form .btn {
+    margin-left: 175px;
+    background-color: blue;
+    margin-top: 10px;
+    color: yellow;
+}
+
+
